@@ -1,0 +1,25 @@
+{
+  "name": "node-redis-lab",
+  "version": "1.0.0",
+  "description": "A simple lab to introduce students to scaling Node apps with Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Melissa Thai",
+  "license": "ISC",
+  "dependencies": {
+    "connect-livereload": "^0.5.4",
+    "connect-redis": "^3.0.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "redis": "^2.4.2",
+    "session.socket.io": "^0.2.1",
+    "socket.io": "^1.4.5",
+    "socket.io-express-session": "^0.1.3",
+    "socket.io-redis": "^1.0.0",
+    "sticky-session": "^1.0.2"
+  }
+}
